@@ -1,5 +1,5 @@
 export const name = 'my-plugin'
-export const version = '0.0.1'
+export const version = require('../package.json')
 
 export const manifest = {
   helloWorld: 'sync'
